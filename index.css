@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+    
+    
+}
+
+.display {
+    width: 900px;
+    height: 150px;
+    margin: 30px auto;
+    background: -webkit-linear-gradient(left,lightskyblue,lightgray);
+    margin-bottom: 0px;
+    border-radius: 30px;
+    padding-left: 30PX;
+    padding-top: 30PX;
+    font-size: 24PX;
+}
+
+.btns {
+    width: 900px;
+    height: 300px;
+    margin: 0px auto;
+    background: -webkit-linear-gradient(left,lightgray,lightskyblue);
+    border-radius: 30px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: silver;
+    width: 85px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.vbigbtn {
+    width: 400px;
+    height: 30px;
+    background-color: silver;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bigbtn {
+    width: 150px;
+    height: 30px;
+    background-color: silver;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.aqua
+{
+    background-color: aqua;
+}
+
+.btn , .vbigbtn , .bigbtn {
+    box-shadow: 10px 10px;
+}
+
+.btn:hover{
+    background-color: silver;
+    transform: translate(0px ,-10px);
+}
+
+.bigbtn:hover {
+    background-color: silver;
+    transform: translate(0px,-10px);
+}
+
+.vbigbtn:hover {background-color: silver;
+    transform: translate(0px,-10px);
+
+}
